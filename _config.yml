@@ -30,6 +30,8 @@ author:
   employer         : "Imperial College London"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/"
+  arxiv            : "https://arxiv.org/"
+  cv               : "/files/Zhaodong_Guo_CV.pdf"
   email            : "z.guo25@imperial.ac.uk"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -47,7 +49,7 @@ author:
   lastfm           :
   linkedin         : "https://www.linkedin.com/"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  orcid            : "https://orcid.org/"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username

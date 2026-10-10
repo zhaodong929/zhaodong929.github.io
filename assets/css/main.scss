@@ -147,6 +147,73 @@ h1:before, .anchor:before {
     font-weight: 700;
 }
 
+/* Use the complete supplied photo in a larger square profile area. */
+div.author__avatar {
+    width: 100%;
+    margin: 0 auto 1.5rem;
+    text-align: center;
+}
+
+img.author__avatar {
+    display: block;
+    width: 220px !important;
+    height: 220px !important;
+    margin: 0 auto;
+    border-radius: 8px !important;
+    object-fit: contain !important;
+    background: #eef2f6;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .12);
+}
+
+/* Increase reading size and reserve bold text for the key academic claims. */
+.page__content {
+    font-size: 1.12rem;
+    line-height: 1.72;
+}
+
+.page__content strong {
+    font-weight: 700;
+}
+
+.page__content h1,
+.page__content h2 {
+    font-weight: 700;
+}
+
+.page__content h1 {
+    font-size: 2rem;
+}
+
+.page__content h2 {
+    font-size: 1.35rem;
+}
+
+.author__name {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.author__bio {
+    font-size: 1.08rem;
+    line-height: 1.5;
+}
+
+.author__urls li {
+    margin-bottom: .7rem;
+    font-size: 1.05rem;
+}
+
+@media (max-width: 600px) {
+    img.author__avatar {
+        width: 180px !important;
+        height: 180px !important;
+    }
+
+    .page__content {
+        font-size: 1.04rem;
+    }
+}
+
 /* Keep the profile links available on small screens without JavaScript. */
 .author__urls {
     display: block !important;

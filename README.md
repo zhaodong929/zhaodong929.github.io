@@ -5,7 +5,7 @@ This site is a concise academic homepage built from the [AcadHomepage](https://g
 ## Edit the profile
 
 - Update name, position, email, location, profile links, CV path, arXiv link, and ORCID link in `_config.yml`.
-- Replace `images/profile.jpg` with a square profile photo, keeping the same filename, or update `author.avatar` in `_config.yml`.
+- Replace `images/profile.jpg` with the full profile photo, keeping the same filename, or update `author.avatar` in `_config.yml`. The stylesheet displays the complete image inside a square frame without cropping.
 
 ## Add a publication
 
@@ -19,7 +19,9 @@ Edit `_pages/projects.md` and copy a `<article class="project-card">` block. Kee
 
 Replace `files/Zhaodong_Guo_CV.pdf` with the latest PDF and keep the filename, or update the link in `_pages/about.md`.
 
-Replace the placeholder `images/profile.jpg` with a professional profile photo when ready.
+The publication PDFs are stored as `files/KronHiPPO_STGP.pdf`, `files/HiPPO_Functional_Memory.pdf`, and `files/Analytic_Interdomain_Memory_HiPPO_SVGP.pdf`; update the corresponding links in `_pages/about.md` and `_pages/projects.md` when replacing them.
+
+Code links currently point to the existing `Kronecker_Separable_Spatio_Temporal_HiPPO_SVGP` and `Multi-SVGP` repositories. Replace them in the same two page files if a project-specific repository becomes available.
 
 ## Build locally
 
@@ -48,4 +50,4 @@ Open `http://127.0.0.1:4000` and check the homepage, navigation anchors, profile
 3. In the repository settings, open **Pages**, choose **GitHub Actions** as the source, and let the `Deploy to GitHub Pages` workflow publish the site.
 4. After the workflow completes, visit `https://zhaodong929.github.io`.
 
-The Google Scholar and LinkedIn links currently point to their service homepages because the source CV did not provide personal profile URLs. Replace them in `_config.yml` when available. The arXiv, PDF, and code buttons marked as placeholders should be replaced in `_pages/about.md` when public links are ready.
+The Google Scholar, arXiv, and ORCID entries are placeholders because the source CV did not provide personal profile URLs or identifiers. Replace them in `_config.yml` when available.

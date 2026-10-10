@@ -4,16 +4,22 @@ This site is a concise academic homepage built from the [AcadHomepage](https://g
 
 ## Edit the profile
 
-- Update name, position, email, location, profile links, and avatar path in `_config.yml`.
+- Update name, position, email, location, profile links, CV path, arXiv link, and ORCID link in `_config.yml`.
 - Replace `images/profile.jpg` with a square profile photo, keeping the same filename, or update `author.avatar` in `_config.yml`.
 
 ## Add a publication
 
-Edit `_pages/about.md` and copy one of the existing `<article class="publication-card">` blocks. Update the title, author line, venue or status, summary, and links. Keep under-review work anonymized until it is safe to disclose authorship.
+Edit `_pages/about.md` and copy one of the existing `<article class="publication-card">` blocks. Update the title, author line, venue or status, summary, and links. Keep under-review work described as a manuscript under review until it is safe to disclose authorship.
+
+## Add a research project
+
+Edit `_pages/projects.md` and copy a `<article class="project-card">` block. Keep the problem, idea, and contribution concise and supported by the project materials.
 
 ## Update the CV
 
 Replace `files/Zhaodong_Guo_CV.pdf` with the latest PDF and keep the filename, or update the link in `_pages/about.md`.
+
+Replace the placeholder `images/profile.jpg` with a professional profile photo when ready.
 
 ## Build locally
 

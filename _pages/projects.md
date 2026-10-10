@@ -25,7 +25,7 @@ These projects develop compact, reusable memory representations for long and irr
   <p><strong>Problem.</strong> Irregular sequences require queries at new coordinates without repeatedly re-encoding the history.</p>
   <p><strong>Idea.</strong> A fixed-rank functional memory matches the write and read geometry and supports coordinate-level queries after encoding.</p>
   <p><strong>Contribution.</strong> O(Md) post-encoding storage for reusable sequence memory.</p>
-  <p class="publication-links"><a class="btn btn--small" href="{{ '/files/HiPPO_Functional_Memory.pdf' | relative_url }}">PDF</a> <a class="btn btn--small" href="https://github.com/zhaodong929/Kronecker_Separable_Spatio_Temporal_HiPPO_SVGP">Code</a></p>
+  <p class="publication-links"><a class="btn btn--small" href="{{ '/files/HiPPO_Functional_Memory.pdf' | relative_url }}">PDF</a> <span class="btn btn--small btn--disabled" aria-disabled="true" title="Code repository is currently private">Code (private)</span></p>
 </article>
 
 <article class="project-card">
@@ -34,5 +34,5 @@ These projects develop compact, reusable memory representations for long and irr
   <p><strong>Problem.</strong> ODE-based interdomain kernel construction can depend on discretization choices.</p>
   <p><strong>Idea.</strong> An analytic spherical-Bessel formulation replaces the ODE construction while retaining comparable predictive accuracy.</p>
   <p><strong>Contribution.</strong> A more direct analytic route to efficient online HiPPO-SVGP inference.</p>
-  <p class="publication-links"><a class="btn btn--small" href="{{ '/files/Analytic_Interdomain_Memory_HiPPO_SVGP.pdf' | relative_url }}">PDF</a> <a class="btn btn--small" href="https://github.com/zhaodong929/Multi-SVGP">Code</a></p>
+  <p class="publication-links"><a class="btn btn--small" href="{{ '/files/Analytic_Interdomain_Memory_HiPPO_SVGP.pdf' | relative_url }}">PDF</a> <a class="btn btn--small" href="https://github.com/zhaodong929/Analytic-HippoSVGP">Code</a></p>
 </article>

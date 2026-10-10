@@ -5,7 +5,7 @@ This site is a concise academic homepage built from the [AcadHomepage](https://g
 ## Edit the profile
 
 - Update name, position, email, location, profile links, CV path, arXiv link, and ORCID link in `_config.yml`.
-- Replace `images/profile.jpg` with the full profile photo, keeping the same filename, or update `author.avatar` in `_config.yml`. The stylesheet displays the complete image inside a square frame without cropping.
+- Replace `images/profile.jpg` with the full profile photo, keeping the same filename, or update `author.avatar` in `_config.yml`. The stylesheet displays the complete image at its natural proportions without cropping, a frame, or a shadow.
 
 ## Add a publication
 
@@ -21,7 +21,7 @@ Replace `files/Zhaodong_Guo_CV.pdf` with the latest PDF and keep the filename, o
 
 The publication PDFs are stored as `files/KronHiPPO_STGP.pdf`, `files/HiPPO_Functional_Memory.pdf`, and `files/Analytic_Interdomain_Memory_HiPPO_SVGP.pdf`; update the corresponding links in `_pages/about.md` and `_pages/projects.md` when replacing them.
 
-Code links currently point to the existing `Kronecker_Separable_Spatio_Temporal_HiPPO_SVGP` and `Multi-SVGP` repositories. Replace them in the same two page files if a project-specific repository becomes available.
+KronHiPPO-STGP links to `Kronecker_Separable_Spatio_Temporal_HiPPO_SVGP`, and Analytic Interdomain Memory links to `Analytic-HippoSVGP`. HiPPO Functional Memory displays a disabled "Code (private)" label until its repository becomes public. Update these in the same two page files.
 
 ## Build locally
 

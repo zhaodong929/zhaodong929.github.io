@@ -34,21 +34,21 @@ My research investigates how AI systems can maintain and use information efficie
 <article class="publication-card">
   <h2>KronHiPPO-STGP: Online Bayesian Spatiotemporal Modeling with Evolving Memory</h2>
   <p class="publication-meta">Manuscript under review</p>
-  <p>A bounded-memory online Bayesian model that combines evolving HiPPO representations, natural-parameter transfer, and structured inference for streaming spatiotemporal prediction.</p>
-  <p class="publication-links"><a class="btn btn--small" href="https://arxiv.org/">arXiv</a> <a class="btn btn--small" href="{{ '/files/KronHiPPO_STGP.pdf' | relative_url }}">PDF</a> <a class="btn btn--small" href="https://github.com/zhaodong929/Kronecker_Separable_Spatio_Temporal_HiPPO_SVGP">Code</a></p>
+  <p>Spatiotemporal streams require both global trends and correlated uncertainty while observations arrive sequentially. KronHiPPO-STGP jointly updates a parametric linear trend and a Gaussian-process residual with a separable spatiotemporal kernel. Online HiPPO-SVGP maintains a fixed-size temporal history representation; spherical-Bessel evaluations replace numerical ODE integration, while Kronecker structure reduces posterior computation from O(M<sup>6</sup>) to O(M<sup>3</sup>). Experiments across climate, public-health, and traffic data show memory use independent of stream length together with accurate predictions and uncertainty quantification.</p>
+  <p class="publication-links"><a class="btn btn--small" href="https://arxiv.org/">arXiv</a> <a class="btn btn--small" href="{{ '/files/KronHiPPO_STGP.pdf' | relative_url }}">Preview (first page)</a> <span class="btn btn--small btn--disabled" aria-disabled="true" title="Code repository is currently private">Code (private)</span></p>
 </article>
 
 <article class="publication-card">
   <h2>HiPPO Functional Memory: Coordinate-Queryable Attention for Irregular Time Series</h2>
   <p class="publication-meta">Manuscript under review</p>
-  <p>A fixed-rank functional memory that supports coordinate-level queries without re-encoding, with matched write/read geometry and O(Md) post-encoding storage.</p>
-  <p class="publication-links"><a class="btn btn--small" href="https://arxiv.org/">arXiv</a> <a class="btn btn--small" href="{{ '/files/HiPPO_Functional_Memory.pdf' | relative_url }}">PDF</a> <span class="btn btn--small btn--disabled" aria-disabled="true" title="Code repository is currently private">Code (private)</span></p>
+  <p>Irregular time series require temporal queries at arbitrary coordinates, but observation-dependent representations often need repeated resolution. HiPPO Functional Memory compiles an irregular history into a reusable, coordinate-addressable state: observations are written into a fixed-rank functional space and queries are evaluated directly through matched functional geometry. Kernel-smoothed HiPPO coordinates, Gram-based readout, and observed-support self-attention support content-dependent compression while preserving coordinate semantics. The method characterizes a finite-dimensional query space and separates functional-geometry approximation error from learned-memory mismatch. Across reconstruction, irregular representation learning, real-world extrapolation, and event-sequence prediction, including 20 UEA datasets, the compact O(Md) state can be reused across query sets without re-encoding the observation history.</p>
+  <p class="publication-links"><a class="btn btn--small" href="https://arxiv.org/">arXiv</a> <a class="btn btn--small" href="{{ '/files/HiPPO_Functional_Memory.pdf' | relative_url }}">Preview (first page)</a> <span class="btn btn--small btn--disabled" aria-disabled="true" title="Code repository is currently private">Code (private)</span></p>
 </article>
 
 <article class="publication-card">
   <h2>Analytic Interdomain Memory for Efficient Online HiPPO-SVGP</h2>
   <p class="publication-meta">Zhaodong Guo, Naoki Kiyohara, Wenlong Chen, Harrison Bo Hua Zhu, Yingzhen Li · ICML 2026 Workshop on Structured Probabilistic Inference &amp; Generative Modeling</p>
-  <p>Replaces ODE-based HiPPO interdomain kernel construction with an analytic spherical-Bessel formulation, reducing dependence on ODE discretization while retaining comparable predictive accuracy.</p>
+  <p>Online Gaussian processes combine flexible function modeling with calibrated uncertainty, but exact inference is cubic and sparse online updates can forget early observations. This work replaces ODE-based HiPPO-LegS interdomain kernel construction with closed-form spherical-Bessel expressions for sine/cosine-Legendre overlaps. Kernel quantities are evaluated directly at the current time, removing ODE discretization error and reducing dependence on integration steps. On Solar Irradiance and COVID-19 mortality streams, the analytic variant retains comparable predictive performance and shows favorable aggregate metrics, with the strongest runtime gains at fine time discretizations.</p>
   <p class="publication-links"><a class="btn btn--small" href="https://icml.cc/virtual/2026/74293">ICML Page</a> <a class="btn btn--small" href="{{ '/files/Analytic_Interdomain_Memory_HiPPO_SVGP.pdf' | relative_url }}">PDF</a> <a class="btn btn--small" href="https://github.com/zhaodong929/Analytic-HippoSVGP">Code</a></p>
 </article>
 

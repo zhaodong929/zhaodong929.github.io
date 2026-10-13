@@ -19,9 +19,9 @@ Edit `_pages/projects.md` and copy a `<article class="project-card">` block. Kee
 
 Replace `files/Zhaodong_Guo_CV.pdf` with the latest PDF and keep the filename, or update the link in `_pages/about.md`.
 
-The publication PDFs are stored as `files/KronHiPPO_STGP.pdf`, `files/HiPPO_Functional_Memory.pdf`, and `files/Analytic_Interdomain_Memory_HiPPO_SVGP.pdf`; update the corresponding links in `_pages/about.md` and `_pages/projects.md` when replacing them.
+The first-page preview PDFs for the two manuscripts under review are stored as `files/KronHiPPO_STGP.pdf` and `files/HiPPO_Functional_Memory.pdf`; the accepted workshop paper remains at `files/Analytic_Interdomain_Memory_HiPPO_SVGP.pdf`. Keep the first two files limited to a single-page preview and update the corresponding links in `_pages/about.md` and `_pages/projects.md` when replacing them.
 
-KronHiPPO-STGP links to `Kronecker_Separable_Spatio_Temporal_HiPPO_SVGP`, and Analytic Interdomain Memory links to `Analytic-HippoSVGP`. HiPPO Functional Memory displays a disabled "Code (private)" label until its repository becomes public. Update these in the same two page files.
+KronHiPPO-STGP and HiPPO Functional Memory display disabled "Code (private)" labels while their repositories are private. Analytic Interdomain Memory links to `Analytic-HippoSVGP`. Update these in the same two page files.
 
 ## Build locally
 

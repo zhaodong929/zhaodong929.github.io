@@ -35,7 +35,7 @@ My research investigates how AI systems can maintain and use information efficie
   <h2>KronHiPPO-STGP: Online Bayesian Spatiotemporal Modeling with Evolving Memory</h2>
   <p class="publication-meta">Manuscript under review</p>
   <p>Spatiotemporal streams require both global trends and correlated uncertainty while observations arrive sequentially. KronHiPPO-STGP jointly updates a parametric linear trend and a Gaussian-process residual with a separable spatiotemporal kernel. Online HiPPO-SVGP maintains a fixed-size temporal history representation; spherical-Bessel evaluations replace numerical ODE integration, while Kronecker structure reduces posterior computation from O(M<sup>6</sup>) to O(M<sup>3</sup>). Experiments across climate, public-health, and traffic data show memory use independent of stream length together with accurate predictions and uncertainty quantification.</p>
-  <p class="publication-links"><a class="btn btn--small" href="https://arxiv.org/">arXiv</a> <a class="btn btn--small" href="{{ '/files/KronHiPPO_STGP.pdf' | relative_url }}">Preview (first page)</a> <span class="btn btn--small btn--disabled" aria-disabled="true" title="Code repository is currently private">Code (private)</span></p>
+  <p class="publication-links"><span class="btn btn--small btn--disabled" aria-disabled="true" title="arXiv link is not public">arXiv (private)</span> <a class="btn btn--small" href="{{ '/files/KronHiPPO_STGP.pdf' | relative_url }}">Preview (first page)</a> <span class="btn btn--small btn--disabled" aria-disabled="true" title="Code repository is currently private">Code (private)</span></p>
 </article>
 
 <article class="publication-card">

@@ -10,7 +10,7 @@ redirect_from:
 
 <span class="anchor" id="about"></span>
 
-I am an **MRes student in Artificial Intelligence and Machine Learning** at Imperial College London, supervised by **Prof. Yingzhen Li**.
+I am an **MRes researcher in Artificial Intelligence and Machine Learning** at Imperial College London, and completed the MRes with **Distinction** under the supervision of **Prof. Yingzhen Li**.
 
 My research focuses on building **efficient learning systems with structured and persistent memory** for long and irregular sequences. I study how compact representations, state-space models, and probabilistic inference can enable models to continuously update and retrieve information over extended horizons.
 
@@ -42,7 +42,7 @@ My research investigates how AI systems can maintain and use information efficie
   <h2>HiPPO Functional Memory: Coordinate-Queryable Attention for Irregular Time Series</h2>
   <p class="publication-meta">Manuscript under review</p>
   <p>Irregular time series require temporal queries at arbitrary coordinates, but observation-dependent representations often need repeated resolution. HiPPO Functional Memory compiles an irregular history into a reusable, coordinate-addressable state: observations are written into a fixed-rank functional space and queries are evaluated directly through matched functional geometry. Kernel-smoothed HiPPO coordinates, Gram-based readout, and observed-support self-attention support content-dependent compression while preserving coordinate semantics. The method characterizes a finite-dimensional query space and separates functional-geometry approximation error from learned-memory mismatch. Across reconstruction, irregular representation learning, real-world extrapolation, and event-sequence prediction, including 20 UEA datasets, the compact O(Md) state can be reused across query sets without re-encoding the observation history.</p>
-  <p class="publication-links"><a class="btn btn--small" href="https://arxiv.org/">arXiv</a> <a class="btn btn--small" href="{{ '/files/HiPPO_Functional_Memory.pdf' | relative_url }}">Preview (first page)</a> <span class="btn btn--small btn--disabled" aria-disabled="true" title="Code repository is currently private">Code (private)</span></p>
+  <p class="publication-links"><a class="btn btn--small" href="https://arxiv.org/abs/2610.24501">arXiv</a> <a class="btn btn--small" href="{{ '/files/HiPPO_Functional_Memory.pdf' | relative_url }}">Preview (first page)</a> <span class="btn btn--small btn--disabled" aria-disabled="true" title="Code repository is currently private">Code (private)</span></p>
 </article>
 
 <article class="publication-card">
@@ -65,5 +65,3 @@ My research investigates how AI systems can maintain and use information efficie
 # CV
 
 <p><a class="btn btn--primary" href="{{ '/files/Zhaodong_Guo_CV.pdf' | relative_url }}">Download CV (PDF)</a></p>
-
-The arXiv buttons currently point to the arXiv homepage until paper identifiers are available.

@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zhaodong Guo"
-description              : "MRes researcher in Artificial Intelligence and Machine Learning at Imperial College London"
+description              : "MRes researcher in Artificial Intelligence and Machine Learning at Imperial College London (Distinction)"
 repository               : "zhaodong929/zhaodong929.github.io"
 url                      : "https://zhaodong929.github.io"
 baseurl                  : ""
@@ -25,7 +25,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zhaodong Guo"
   avatar           : "images/profile.jpg"
-  bio              : "Master of Research in Artificial Intelligence and Machine Learning, Imperial College London."
+  bio              : "Master of Research in Artificial Intelligence and Machine Learning with Distinction, Imperial College London."
   location         : "London, UK"
   employer         : "Imperial College London"
   pubmed           : 
